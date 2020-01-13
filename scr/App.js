@@ -1,18 +1,18 @@
-    import React, { Component } from 'react';
-	import movies from './movies.json';
-	import './ccs/App.css';
-	import Header from './components/Header';
-	import Footer from './components/Footer';
-	import CardList from './components/CardList';
+import React, { Component } from 'react';
+import movies from './movies.json';
+import './ccs/App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import CardList from './components/CardList';
 	
-	class App extends Component {
-	  state = {
-	    movies,
-	    clickedMovie: [],
-	    score: 0,
-	    highScore: 0,
-	    isGuessed: false
-	  };
+class App extends Component {
+	state = {
+	movies,
+	clickedMovie: [],
+	score: 0,
+	highScore: 0,
+	isGuessed: false
+};
 	
 	  randomGenerator = (a, b) => (Math.random() > 0.5 ? -1 : 1);
 
