@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './header.css';
 var Header = props => (
 	<header className='header'>
 	    <div className='brand-logo'>Clicky Game</div>
