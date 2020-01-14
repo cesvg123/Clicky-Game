@@ -1,7 +1,7 @@
 import React from 'react';
-import './cardItem.css';
+import './CardItem.css';
 
-var cardItem = props => (
+var CardItem = props => (
   <div
     onClick={() => props.imageClick(props.movie.id)}
     className='card-box col-4 col-xs-4 col-sm-4 col-md-4 col-lg-2'
@@ -17,4 +17,4 @@ var cardItem = props => (
   </div>
 );
 
-export default cardItem;
+export default CardItem;

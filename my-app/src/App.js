@@ -1,11 +1,11 @@
-import React, {Components} from "react";
+import React, {Component} from "react";
 import movies from "./movies.json";
 import "./App.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import CardList from "./components/cardList";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import CardList from "./components/CardList";
 	
-class App extends Components {
+class App extends Component {
 	state = {
 	movies,
 	clickedMovie: [],

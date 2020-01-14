@@ -1,14 +1,15 @@
 import React from 'react';
-import cardItem from '../cardItem';
+import "./CardList.css";
+import CardItem from "../CardItem";
 
-	var cardList = props => (
+	var CardList = props => (
 	  <div className='container'>
 	    <div className='row'>
 	      {props.movies.map((movie, index) => (
-	        <cardItem key={movie.id} imageClick={props.imageClick} movie={movie} />
+	        <CardItem key={movie.id} imageClick={props.imageClick} movie={movie} />
 	      ))}
 	    </div>
 	  </div>
 	);
 	
-export default cardList;
+export default CardList;
