@@ -5,11 +5,10 @@ import cardItem from '../cardItem';
 	  <div className='container'>
 	    <div className='row'>
 	      {props.movies.map((movie, index) => (
-	        <CardItem key={movie.id} imageClick={props.imageClick} movie={movie} />
+	        <cardItem key={movie.id} imageClick={props.imageClick} movie={movie} />
 	      ))}
 	    </div>
 	  </div>
 	);
 	
-
-	export default cardList;
+export default cardList;
