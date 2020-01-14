@@ -7,8 +7,6 @@
     flex-direction: row;
     justify-content: center;
     margin: 0;
-    padding: 20px;
-    line-height: 10px;
     background-color: #141821;
     color: #fff;
     border-top: 1px solid #cccc;
@@ -16,5 +14,7 @@
     bottom: 0;
     right: 0;
     left: 0;
+    padding: 20px;
+    line-height: 10px;
     z-index: 1001;
   }
