@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import movies from './movies.json.js';
+import React, {Component} from 'react';
+import movies from './movies.json';
 import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
