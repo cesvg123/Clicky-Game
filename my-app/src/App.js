@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import movies from './movies.json.js';
-import './ccs/App.css';
+import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import CardList from './components/cardList';

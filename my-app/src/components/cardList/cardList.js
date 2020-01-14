@@ -1,5 +1,5 @@
 import React from 'react';
-import cardItem from '../cardItem';
+// import cardItem from '../cardItem';
 
 	var cardList = props => (
 	  <div className='container'>

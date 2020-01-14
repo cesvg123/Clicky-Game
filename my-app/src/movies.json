@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "avengers",
+      "image": "./assets/images/avengers.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "spider-man",
+      "image": "./assets/images/spider-man.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "iron man",
+      "image": "./assets/images/iron man.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "black panther",
+      "image": "./assets/images/black panther.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "deadpool",
+      "image": "./assets/images/deadpool.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "captain america",
+      "image": "./assets/images/captain america.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "jessica jones",
+      "image": "./assets/images/jessica jones.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "ant-man",
+      "image": "./assets/images/ant-man.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "captain marvel",
+      "image": "./assets/images/captain marvel.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "guardians of the galaxy",
+      "image": "./assets/images/guardians of the galaxy.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "wolverine",
+      "image": "./assets/images/wolverine.jpg",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "name": "luke cage",
+      "image": "./assets/images/luke cage.jpg",
+      "clicked": false
+    }
+  ]
