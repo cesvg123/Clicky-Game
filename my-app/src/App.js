@@ -14,6 +14,7 @@ class App extends Component {
 	isGuessed: false
 };
 	
+
 	  randomGenerator = (a, b) => (Math.random() > 0.5 ? -1 : 1);
 
 	  imageClick = id => {
